@@ -24,7 +24,7 @@ class App extends Component {
         <h1>LOGIN WITH FACEBOOK AND GOOGLE</h1>
 
         <FacebookLogin
-          appId="1801834103451410"
+          appId=""
           fields="name,email,picture"
           callback={this.responseFacebook}
         />
